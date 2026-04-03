@@ -64,3 +64,30 @@ public class Main {
     }
 }
 ```
+## NUMBER REVERSE
+```java
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        
+        int a=21547688;
+        int temp=a;
+        int dig=0;
+        int count=0;
+      
+        while(temp!=0)
+        {
+            int rev=temp%10;
+            dig=dig*10+rev;
+            temp/=10;
+               if(dig%2==0)
+            {
+                count++;
+            }
+            
+        }
+         System.out.print(dig);
+    
+    }
+}
+```
